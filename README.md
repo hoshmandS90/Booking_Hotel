@@ -31,7 +31,7 @@ If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Lar
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
 
-## demo project
+## Demo project you can see the screenshot in order to get it how we did it !
 ![Welcome - Google Chrome 1_28_2022 10_39_30 PM](https://user-images.githubusercontent.com/90029989/151611354-61d92521-7235-490c-8bbe-e2e8884d13ee.png)
 ![Welcome - Google Chrome 1_28_2022 10_39_37 PM](https://user-images.githubusercontent.com/90029989/151611405-2c15167e-e98a-42ee-b55f-ee5d93278b09.png)![Welcome - Google Chrome 1_28_2022 10_39_48 PM](https://user-images.githubusercontent.com/90029989/151611417-f3f7c6da-4653-4a02-a0cc-5e13cd0b968d.png)
 ![Welcome - Google Chrome 1_28_2022 10_39_54 PM](https://user-images.githubusercontent.com/90029989/151611430-85411796-1626-4ca7-a450-357b4b47c369.png)
