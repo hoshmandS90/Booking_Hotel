@@ -29,3 +29,5 @@ Route::get('/Rooms',App\Http\Controllers\Pages\Rooms::class)->name('rooms');
 
 Route::get('/Contact',App\Http\Controllers\Pages\Contact::class)->name('contact');
 
+
+Route::get('/Dinig',App\Http\Controllers\Dining::class)->name('dining');
