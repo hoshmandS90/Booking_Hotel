@@ -14,7 +14,7 @@
                 Located within the heart of <span class="text-gray-400">Sulaymaniyah</span>, close to major commercial areas and within close proximity of Sulaymaniyah International Airport, our hotel is the right choice for you
             </p>
 			<div class="flex flex-wrap justify-center">
-				<a href="#" type="button" class="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-700 text-gray-50 hover:bg-gray-900 hover:text-gray-100">Get started</a>
+				<a href="#" type="button" class="px-8 py-3 m-2 text-lg font-semibold rounded bg-gray-700 text-gray-50 hover:bg-gray-900 hover:text-gray-100 uppercase">Get started</a>
 				<a href="{{ route('book') }}"type="button" class="px-8 py-3 m-2 text-lg border bg-red-600 hover:bg-red-800  text-white uppercase">Make  reservation</a>
 			</div>
 		</div>

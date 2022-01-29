@@ -19,6 +19,7 @@
     <script src="{{ asset('assets/js/turbolinks.js')}}"></script>
     <script src="{{ asset('assets/js/turbolinks.min.js')}}"></script>
 
+    
     @livewireStyles
 </head>
 
