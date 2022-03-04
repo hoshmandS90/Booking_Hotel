@@ -1,10 +1,6 @@
 <div>
-     @section('title','Book Now')
-
-
+    @section('title','Book Now')
     <div class="my-6 px-8">
-
-
         <div class="mt-10   sm:mt-0">
             <div class="md:grid md:grid-cols-3 md:gap-6">
                 <div class="md:col-span-1">
@@ -14,8 +10,6 @@
                         <img src="{{ asset('assets/img/forms.jpg') }}"
                             class="mt-1 rounded-lg w-full  img-responsive img-fluid object-cover "
                             title="Hotel Ramada Sulayimaniah">
-
-
                     </div>
                 </div>
                 <div class="mt-5 md:mt-0 md:col-span-2">
@@ -28,7 +22,8 @@
                                             name</label>
                                         <input wire:model.defer="first_name" type="text" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                         dark:focus:shadow-outline-gray form-input">
-                        @error('first_name')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('first_name')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
 
@@ -37,7 +32,8 @@
                                             name</label>
                                         <input wire:model.defer="last_name" type="text" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                          dark:focus:shadow-outline-gray form-input">
-                         @error('last_name')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('last_name')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
 
@@ -48,7 +44,8 @@
                                             address</label>
                                         <input wire:model.defer="email" type="email" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                          dark:focus:shadow-outline-gray form-input">
-                         @error('email')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('email')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
 
@@ -57,7 +54,8 @@
                                             number</label>
                                         <input wire:model.defer="phone" type="number" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                           dark:focus:shadow-outline-gray form-input">
-                          @error('phone')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('phone')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
 
@@ -82,7 +80,8 @@
 
 
                                         </div>
-                                        @error('perfer_method')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('perfer_method')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
                                 </div>
@@ -101,7 +100,8 @@
                                             guests</label>
                                         <input wire:model.defer="number_of_guests" type="text" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                          dark:focus:shadow-outline-gray form-input">
-                         @error('number_of_guests')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('number_of_guests')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
 
@@ -110,25 +110,30 @@
                                             guest rooms</label>
                                         <input wire:model.defer="number_of_rooms" type="text" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                           dark:focus:shadow-outline-gray form-input">
-                          @error('number_of_rooms')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('number_of_rooms')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
                                 </div>
                                 <div class="grid grid-cols-6 gap-6 mb-5">
 
                                     <div class="col-span-6 sm:col-span-3">
-                                        <label class="block text-sm font-medium text-gray-700 capitalize">check in</label>
+                                        <label class="block text-sm font-medium text-gray-700 capitalize">check
+                                            in</label>
                                         <input wire:model.defer="check_in" type="date" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                          dark:focus:shadow-outline-gray form-input">
-                         @error('check_in')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('check_in')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
 
                                     <div class="col-span-6 sm:col-span-3">
-                                        <label class="block text-sm font-medium text-gray-700 capitalize">check out</label>
+                                        <label class="block text-sm font-medium text-gray-700 capitalize">check
+                                            out</label>
                                         <input wire:model.defer="check_out" type="date" class="block w-full mt-1 text-sm dark:border-gray-600 dark:bg-gray-700 focus:border-purple-400 focus:outline-none focus:shadow-outline-purple dark:text-gray-300 
                           dark:focus:shadow-outline-gray form-input">
-                          @error('check_out')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                        @error('check_out')<small
+                                            class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
                                     </div>
                                 </div>
@@ -137,7 +142,8 @@
                                         comments</span>
                                     <textarea wire:model.defer="additional_comments" class="block  mt-1 text-sm dark:text-gray-300 dark:border-gray-600 dark:bg-gray-700 form-textarea focus:border-purple-400 focus:outline-none
                          focus:shadow-outline-purple dark:focus:shadow-outline-gray" cols="100" rows="3"></textarea>
-                         @error('additional_comments')<small class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
+                                    @error('additional_comments')<small
+                                        class="text-red-500 mt-1 mb-2 text-xs">{{ $message }}</small>@enderror
 
 
                                 </label>
@@ -153,28 +159,18 @@
                         </div>
                     </form>
                 </div>
-            </div>  
-            
-    
+            </div>
+
+
         </div>
-      <div class=" my-20" aria-hidden="true">
+        <div class=" my-20" aria-hidden="true">
             <div class="py-5">
                 <div class=""></div>
             </div>
         </div>
 
-        <img src="{{ asset('assets/img/forms2.jpg') }}" alt="" class="w-5/6 mx-auto mb-12 mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-coolGray-500">
+        <img src="{{ asset('assets/img/forms2.jpg') }}" alt=""
+            class="w-5/6 mx-auto mb-12 mt-20 rounded-lg shadow-md lg:-mt-40 dark:bg-coolGray-500">
 
     </div>
-
-
-
-
-
-
-
-
-  
-
-
 </div>

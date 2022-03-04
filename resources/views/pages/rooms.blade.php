@@ -3,7 +3,7 @@
 
     <section class="dark:bg-coolGray-800 dark:text-coolGray-100">
         <div class="container max-w-6xl p-6 mx-auto space-y-6 sm:space-y-12">
-    @foreach ($Rooms as $row)
+            @foreach ($Rooms as $row)
             @if ($row->id ==1)
             <div href="#" class="block max-w-sm gap-3 mx-auto sm:max-w-full    lg:grid lg:grid-cols-12">
 
@@ -20,8 +20,6 @@
                             class="uppercase  rounded-lg text-black border bg-white px-4 hover:bg-gray-800 hover:text-white cursor-pointer py-2 mt-5 mb-1">details</a>
 
                     </div>
-
-
                 </div>
             </div>
             @elseif($row->id ==2)
@@ -58,12 +56,7 @@
 
             </div>
             @endif
- @endforeach
-
-
-
-
-
+            @endforeach
         </div>
     </section>
 </div>

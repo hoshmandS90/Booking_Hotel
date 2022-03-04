@@ -184,10 +184,11 @@
                 <h3 class="text-2xl font-bold tracking-tight sm:text-3xl text-blue-900"> Off-Island Guest Dining</h3>
                 <p class="mt-3 text-lg text-gray-600 w">
                     We accept very limited off-island reservations in our dining room. <br>
-                     This is based on our occupancy and ensures that the<br>
-                      exclusive nature of the island is maintained for our guests.<br>
-                     To inquire aboutoff-island guest reservations, please e-mail <br>
-                      your request to <a href="" class="text-yellow-600 hover:underline" >diningroom@littlepalmisland.com.</a>
+                    This is based on our occupancy and ensures that the<br>
+                    exclusive nature of the island is maintained for our guests.<br>
+                    To inquire aboutoff-island guest reservations, please e-mail <br>
+                    your request to <a href=""
+                        class="text-yellow-600 hover:underline">diningroom@littlepalmisland.com.</a>
                 </p>
             </div>
 
@@ -203,17 +204,20 @@
     <div class="p-5 mt-8 mx-auto sm:p-10 md:p-16  ">
         <div class="flex flex-col mx-auto  rounded">
             <img src="{{ asset('assets/Dining/5.jpg') }}" alt="" class="w-full h-full dark:bg-coolGray-500">
-            <div class="p-6  m-10  -mt-16   sm:px-10 sm:mx-12 lg:rounded-md " style="background-color: rgba(198,165,101,.95);max-width: 400px;">
+            <div class="p-6  m-10  -mt-16   sm:px-10 sm:mx-12 lg:rounded-md "
+                style="background-color: rgba(198,165,101,.95);max-width: 400px;">
                 <div class="space-y-2">
-                    <h3 class="text-white capitalize font-bold" style="color: #fff !important; transition: none !important;">The Tradition Continues</h3>
-                 
-                    <p class="" class="text-white capitalize " style="color: #fff !important; transition: none !important;">
-                            Guests can once again find themselves at the iconic Monkey Hut. 
-                            Re-created to embrace natural elements of the past and found items,
-                            from the sea, surrounded by stunning views.</a>
+                    <h3 class="text-white capitalize font-bold"
+                        style="color: #fff !important; transition: none !important;">The Tradition Continues</h3>
+
+                    <p class="" class="text-white capitalize "
+                        style="color: #fff !important; transition: none !important;">
+                        Guests can once again find themselves at the iconic Monkey Hut.
+                        Re-created to embrace natural elements of the past and found items,
+                        from the sea, surrounded by stunning views.</a>
                     </p>
                 </div>
-             
+
             </div>
         </div>
     </div>

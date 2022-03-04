@@ -30,4 +30,12 @@ Route::get('/Rooms',App\Http\Controllers\Pages\Rooms::class)->name('rooms');
 Route::get('/Contact',App\Http\Controllers\Pages\Contact::class)->name('contact');
 
 
+Route::get('/AboutUs',App\Http\Controllers\About::class)->name('AboutUs');
+
+
 Route::get('/Dinig',App\Http\Controllers\Dining::class)->name('dining');
+
+Route::get('/Wedding',App\Http\Controllers\Event\Wedding::class)->name('wedding');
+
+
+Route::get('/Services',App\Http\Controllers\Service::class)->name('Service');
